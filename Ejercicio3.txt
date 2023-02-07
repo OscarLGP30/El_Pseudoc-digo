@@ -1,0 +1,13 @@
+¿Qué hace este algoritmo?
+
+Algo QueHace  
+# ¿Qué hace este algoritmo?  
+Variable valor1, valor2: real  DECLARACION DE VARIABLES DEL valor1 Y valor2 DE TIPO REAL
+Inicio  INICIA EL ALGORITMO
+   valor1 <- enter("Introduza un valor: ")  AL PULSAR ENTER LE PIDE AL USUARIO QUE INTRODUZCA UN VALOR Y LO GUARDA EN LA VARIABLE valor1
+   valor2 <- enter("Introduza otro valor: ") AL PULSAR ENTER LE PIDE AL USUARIO QUE INTRODUZCA OTRO VALOR Y LO GUARDA EN LA VARIABLE valor2 
+   # tratamiento 
+   valor1 <- valor2  SE CAMBIAN LAS VARIABLES valor1 Y valor2 PASANDO EL VALOR DE valor2 A valor1
+   valor2 <- valor1  SE CAMBIAN LAS VARIABLES valor1 Y valor2 PASANDO EL VALOR DE valor1 A valor2
+   escribir("valor1 = " & valor1 & "; valor2 = " & valor2)  ESCRIBE EN PANTALLA EL VALOR DE LAS VARIABLES valor1 QUE AHORA VALE valor2 Y EL VALOR DE valor2 QUE AHORA VALE valor1
+Fin 
