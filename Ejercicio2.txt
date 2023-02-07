@@ -1,0 +1,14 @@
+¿Qué veremos al ejecutar el siguiente algoritmo?
+
+Algo QueVeremos 
+# ¿Qué veremos al ejecutar el siguiente algoritmo?  
+Variable valor1, valor2: entero  DECLARACION DE VARIABLES DE valor1 y valor2 DE TIPO ENTERO
+Variable cadena1: texto  DECLARACION DE VARIABLE DE cadena1 DE TIPO TEXTO
+Constante CST: real <- 49,78  DECLARACION DE CONSTANTE DE CST DE TIPO REAL
+Inicio  INICIA EL ALGORITMO
+   valor1 <- 92 % 8  DECLARA EL VALOR DE valor1 92 MODULO 8
+   valor2 <- 2 * valor1  DECLARACION DEL VALOR DE valor2 2 POR valor1
+   cadena1 <- "Test"  HACE UN STRING CON EL TEXTO "Test"
+   escribir(cadena1 & " , valor2 = " & valor2)  ESCRIBE EN PANTALLA EL TEXTO "Test , valor2 = " Y EL VALOR DE valor2
+   escribir(valor1 & " # " & CST)  ESCRIBE EN PANTALLA EL VALOR DE valor1 Y EL VALOR DE CST
+Fin FINALIZA EL ALGORITMO
