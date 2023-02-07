@@ -1,0 +1,12 @@
+¿Cuáles serán los valores de las variables a y b después de cada línea del siguiente algoritmo?
+
+Algo ValoresDeLasVariables  
+variable a, b: entero  
+Inicio  
+   a <- 3  EL VALOR DE A PASA A SER 3
+   escribir("a = " & a) VA A IMPRIMIR A = 3 
+   b<-a+5  EL VALOR DE B PASA A SER A + 5, LO QUE ES 8
+   escribir("a = " & a & " y b = " & b)  VA A IMPRIMIR, A = 3 & B = 8
+   a<-7  EL VALOR DE A PASA A SER 7 Y YA NO ES 3
+   escribir("a = " & a & " y b = " & b)  IMPRIME A = 7 Y B = 12
+Fin 
